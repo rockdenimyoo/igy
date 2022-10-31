@@ -1,0 +1,41 @@
+.slider h3,
+.slider h5,
+.clients h3,
+.product h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+.parallax-container {
+    height: 30%;
+}
+
+.parallax img {
+    filter: grayscale(1);
+    opacity: 0.5 !important;
+}
+
+.clients img {
+    max-width: 200px;
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.8));
+    display: block;
+    margin:0 auto;
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+footer {
+    padding: 20px 0;
+}
